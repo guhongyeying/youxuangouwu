@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff9f5f4"
+    android:orientation="vertical" >
+
+    <!-- 设置 layout 尹稳定 2014.11.17 -->
+
+    <RelativeLayout
+        android:id="@+id/rela"
+        android:layout_width="fill_parent"
+        android:layout_height="45.0dip"
+        android:background="@color/red" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="设置"
+            android:textColor="#ffffffff"
+            android:textSize="20.0sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rela"
+        android:orientation="vertical" >
+
+        <LinearLayout style="@style/leba_bg_layout" >
+
+            <LinearLayout style="@style/leba_bg_top_layout" >
+
+                <TextView
+                    android:id="@+id/clean"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12.0dip"
+                    android:layout_weight="1.0"
+                    android:text="清除缓存"
+                    android:textColor="#ff333333"
+                    android:textSize="16.0dip" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="12.0dip"
+                    android:src="@drawable/setting_arrow" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1.0px"
+                android:background="@drawable/shape_line" />
+
+            <LinearLayout style="@style/leba_bg_mid_layout" >
+
+                <TextView
+                    android:id="@+id/fankui"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12.0dip"
+                    android:layout_weight="1.0"
+                    android:text="意见反馈"
+                    android:textColor="#ff333333"
+                    android:textSize="16.0dip" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="12.0dip"
+                    android:src="@drawable/setting_arrow" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1.0px"
+                android:background="@drawable/shape_line" />
+
+            <LinearLayout style="@style/leba_bg_bottom_layout" >
+
+                <TextView
+                    android:id="@+id/about"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12.0dip"
+                    android:layout_weight="1.0"
+                    android:text="关于我们"
+                    android:textColor="#ff333333"
+                    android:textSize="16.0dip" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="12.0dip"
+                    android:src="@drawable/setting_arrow" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout style="@style/leba_bg_layout" >
+
+            <LinearLayout
+                android:id="@+id/linear"
+                style="@style/leba_bg_top_layout"
+                android:visibility="gone" >
+
+                <TextView
+                    android:id="@+id/gengduo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12.0dip"
+                    android:layout_weight="1.0"
+                    android:text="精品推荐"
+                    android:textColor="#ff333333"
+                    android:textSize="16.0dip" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="12.0dip"
+                    android:src="@drawable/setting_arrow" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1.0px"
+                android:background="@drawable/shape_line" />
+
+            <LinearLayout style="@style/leba_bg_bottom_layout" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12.0dip"
+                    android:layout_weight="1.0"
+                    android:text="版本"
+                    android:textColor="#ff333333"
+                    android:textSize="16.0dip" />
+
+                <TextView
+                    android:id="@+id/vision"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="15.0dip"
+                    android:text="1.0.0"
+                    android:textColor="#ff333333"
+                    android:textSize="14.0dip" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="12.0dip"
+                    android:src="@drawable/setting_arrow" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/bar"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/bottom_bar" >
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="45.0dip"
+            android:layout_height="45.0dip"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/fanhui" />
+    </RelativeLayout>
+
+</LinearLayout>

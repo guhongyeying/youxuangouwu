@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/red" >
+
+        <ImageButton
+            android:id="@+id/imagbtn_change_tiantain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/change1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/tiantiantejia"
+            android:textColor="@color/white"
+            android:textSize="24sp" />
+
+        <ImageButton
+            android:id="@+id/imagebtn_cebian"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/fenlei" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9" >
+        
+        <FrameLayout 
+            android:id="@+id/fl_tiantian_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </FrameLayout>
+
+       
+
+        <FrameLayout
+            android:id="@+id/fl_tiantian_celan"
+            android:layout_width="120dp"
+            android:layout_height="500dp"
+            android:layout_alignParentRight="true"
+            android:background="#66AAAAAA"
+            android:visibility="gone" >
+        </FrameLayout>
+    </RelativeLayout>
+
+</LinearLayout>

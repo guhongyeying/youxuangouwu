@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.jingpingouwu"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/wu"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Light.NoTitleBar" >
+        <activity
+            android:name="com.example.youxuan.activity.Welcome"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.youxuan.activity.MainActivity"/>
+        <activity android:name="com.example.youxuan.activity.SettingActivity" />
+        <activity android:name="com.example.youxuan.activity.AboutUsActivity" />
+        <activity android:name="com.example.youxuan.activity.WebviewActivity" />
+        <activity android:name="com.example.youxuan.activity.ZhutiXQActivity" />
+        <activity android:name="com.example.youxuan.activity.ZhutiWebViewActivity" />
+        <activity android:name="com.example.youxuan.activity.ReMenActivity" />
+        <activity android:name="com.example.youxuan.activity.MydipanWebview" />
+        <activity android:name="com.example.youxuan.activity.DingdanWebview" />
+        <activity android:name="com.example.youxuan.activity.GouwucheWebview" />
+        <activity android:name="com.example.youxuan.activity.ShoucangWebview" />
+        <activity android:name="com.example.youxuan.activity.WuliuWebview" />
+        <activity android:name="com.example.youxuan.activity.SearchActivity"/>
+    </application>
+
+</manifest>

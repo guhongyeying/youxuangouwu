@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+    
+    <ListView 
+        android:id="@+id/lv_tiantian_celan"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:divider="@color/white"
+        android:dividerHeight="3px"
+        android:layout_gravity="center"
+        android:background="#99444444">
+        
+    </ListView>
+    
+
+</LinearLayout>

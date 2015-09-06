@@ -1,0 +1,55 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/daohang1"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="#FF5A69" >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="5dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true" >
+
+        <ImageView
+            android:id="@+id/shouye_search_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/shouye_search" />
+
+        <EditText
+            android:id="@+id/shouye_search"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="5dp"
+            android:layout_toLeftOf="@id/shouye_search_btn"
+            android:background="@drawable/edit_text_bg_selector"
+            android:gravity="center_vertical"
+            android:hint="搜索商品"
+            android:paddingLeft="5dp"
+            android:textColor="#000"
+            android:textSize="10sp" />
+        <!-- android:imeOptions="actionSearch" : 键盘上加个搜索按钮 -->
+    </RelativeLayout>
+
+    <AnalogClock
+        android:id="@+id/analogClock1"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignBottom="@+id/imageView1"
+        android:layout_toRightOf="@+id/imageView1" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/youxuangouwu_title" />
+
+</RelativeLayout>

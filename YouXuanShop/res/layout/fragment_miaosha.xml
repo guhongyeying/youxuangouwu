@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/themeColor"
+        android:gravity="center"
+        android:text="@string/xianshimiaosha"
+        android:textColor="@color/textColor"
+        android:textSize="22sp" />
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.7"
+        android:background="@color/themeColor"
+        android:scrollbars="none" >
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical|left"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/btn_time_7"
+                android:layout_width="@dimen/miaosha_btn_wight"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/miaosha_btn_marginright"
+                android:background="@drawable/miaosha_btn"
+                android:button="@null"
+                android:gravity="center"
+                android:text="7点"
+                android:textColor="@drawable/miaosha_btn_font_color" />
+
+            <RadioButton
+                android:id="@+id/btn_time_9"
+                android:layout_width="@dimen/miaosha_btn_wight"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/miaosha_btn_marginright"
+                android:background="@drawable/miaosha_btn"
+                android:button="@null"
+                android:gravity="center"
+                android:text="9点"
+                android:textColor="@drawable/miaosha_btn_font_color" />
+
+            <RadioButton
+                android:id="@+id/btn_time_12"
+                android:layout_width="@dimen/miaosha_btn_wight"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/miaosha_btn_marginright"
+                android:background="@drawable/miaosha_btn"
+                android:button="@null"
+                android:gravity="center"
+                android:text="12点"
+                android:textColor="@drawable/miaosha_btn_font_color" />
+
+            <RadioButton
+                android:id="@+id/btn_time_15"
+                android:layout_width="@dimen/miaosha_btn_wight"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/miaosha_btn_marginright"
+                android:background="@drawable/miaosha_btn"
+                android:button="@null"
+                android:gravity="center"
+                android:text="15点"
+                android:textColor="@drawable/miaosha_btn_font_color" />
+
+            <RadioButton
+                android:id="@+id/btn_time_18"
+                android:layout_width="@dimen/miaosha_btn_wight"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/miaosha_btn_marginright"
+                android:background="@drawable/miaosha_btn"
+                android:button="@null"
+                android:gravity="center"
+                android:text="18点"
+                android:textColor="@drawable/miaosha_btn_font_color" />
+
+            <RadioButton
+                android:id="@+id/btn_time_21"
+                android:layout_width="@dimen/miaosha_btn_wight"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/miaosha_btn_marginright"
+                android:background="@drawable/miaosha_btn"
+                android:button="@null"
+                android:gravity="center"
+                android:text="21点"
+                android:textColor="@drawable/miaosha_btn_font_color" />
+        </RadioGroup>
+    </HorizontalScrollView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8" >
+
+        <GridView
+            android:id="@+id/gv_xianshimiaosha"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="4dp"
+            android:horizontalSpacing="4dp"
+            android:numColumns="2"
+            android:scrollbars="none"
+            android:verticalSpacing="4dp" >
+        </GridView>
+
+    </RelativeLayout>
+
+</LinearLayout>

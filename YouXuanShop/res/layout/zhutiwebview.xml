@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <WebView
+        android:id="@+id/zhuti_webview"
+        android:layout_width="match_parent"
+        android:layout_height="0.0dp"
+        android:layout_weight="9" />
+
+    <RelativeLayout
+        android:id="@+id/rl11"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1"
+        android:background="@drawable/bar" >
+
+        <ImageView
+            android:id="@+id/viewback"
+            android:layout_width="40.0dip"
+            android:layout_height="60.0dip"
+            android:background="@drawable/fanhui" />
+
+        <ImageView
+            android:id="@+id/fanhuizhujiemian2"
+            android:layout_width="40.0dip"
+            android:layout_height="40.0dip"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/chacha" />
+
+    </RelativeLayout>
+
+</LinearLayout>

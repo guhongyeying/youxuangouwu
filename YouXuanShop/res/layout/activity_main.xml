@@ -1,0 +1,73 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!-- 主界面 -->
+
+    <FrameLayout
+        android:id="@+id/fragment"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0"
+        android:clickable="true" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50.0dip"
+        android:layout_gravity="bottom"
+        android:gravity="center_horizontal" >
+
+        <RadioGroup
+            android:id="@+id/radiogroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/radio_shouye"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:background="@drawable/tab_selector_jingpin"
+                android:button="@null"
+                android:checked="true" />
+
+            <RadioButton
+                android:id="@+id/radio_tttj"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:background="@drawable/tab_selector_tttj"
+                android:button="@null" />
+
+            <RadioButton
+                android:id="@+id/radio_miaosha"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:background="@drawable/tab_selector_xianshi"
+                android:button="@null" />
+
+            <RadioButton
+                android:id="@+id/radio_zhuti"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:background="@drawable/tab_selector_zhuti"
+                android:button="@null" />
+
+            <RadioButton
+                android:id="@+id/radio_wode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:background="@drawable/tab_selector_wode"
+                android:button="@null" />
+        </RadioGroup>
+    </RelativeLayout>
+
+</LinearLayout>

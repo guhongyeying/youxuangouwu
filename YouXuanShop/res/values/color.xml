@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="abc_search_url_text_normal">#ff7fa87f</color>
+    <color name="abc_search_url_text_selected">@android:color/black</color>
+    <color name="abc_search_url_text_pressed">@android:color/black</color>
+    <color name="grey">#ffaaaaaa</color>
+    <color name="black">#ff4d4d4d</color>
+    <color name="shape_line">#ffcccccc</color>
+    <color name="white">#ffffffff</color>
+    <color name="button_selected">#ff419de4</color>
+    <color name="blacks">#ff000000</color>
+    <color name="touming">#00000000</color>
+    <color name="red">#ffff5a69</color>
+    <color name="umeng_fb_color_btn_pressed">#ff1495f7</color>
+    <color name="umeng_fb_color_btn_normal">#ff333333</color>
+    <color name="umeng_socialize_comments_bg">#fff4f4f4</color>
+    <color name="umeng_socialize_color_group">#ff2c3035</color>
+    <color name="umeng_socialize_list_item_textcolor">#ff333333</color>
+    <color name="umeng_socialize_list_item_bgcolor">#ffffffff</color>
+    <color name="umeng_socialize_divider">#ffe6e6e6</color>
+    <color name="umeng_socialize_text_time">#ff999999</color>
+    <color name="umeng_socialize_text_title">#ff464f61</color>
+    <color name="umeng_socialize_text_friends_list">#ff959696</color>
+    <color name="umeng_socialize_text_share_content">#ff666666</color>
+    <color name="umeng_socialize_ucenter_bg">#ffeeeeee</color>
+    <color name="umeng_socialize_text_ucenter">#ff595959</color>
+    <color name="umeng_socialize_edit_bg">#ffc4c4c4</color>
+    <color name="umeng_socialize_grid_divider_line">#fff8f8f8</color>
+
+    <item name="themeColor" type="color">#FF5A69</item>
+    <item name="textColor" type="color">#FFFFFF</item>
+
+</resources>

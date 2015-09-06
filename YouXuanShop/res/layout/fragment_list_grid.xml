@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ListView
+        android:id="@+id/lv_tiantian_change"
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:layout_height="match_parent" >
+    </ListView>
+
+    <GridView
+        android:id="@+id/gv_tiantiantejia"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="3dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:horizontalSpacing="4dp"
+        android:numColumns="2"
+        android:scrollbars="none"
+        android:verticalSpacing="4dp" >
+    </GridView>
+
+</RelativeLayout>

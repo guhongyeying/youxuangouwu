@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.0"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/shouye_images_00"
+            style="@style/shouye_all_images"
+            android:src="@drawable/shouye_all_image1_selector"/>
+
+        <ImageView
+            android:id="@+id/shouye_images_01"
+            style="@style/shouye_all_images"
+            android:src="@drawable/shouye_all_image2_selector"/>
+
+        <ImageView android:id="@+id/shouye_images_02"
+            style="@style/shouye_all_images"
+            android:src="@drawable/shouye_all_image3_selector" />
+
+        <ImageView android:id="@+id/shouye_images_03"
+            style="@style/shouye_all_images"
+            android:src="@drawable/shouye_all_image4_selector" />
+
+        <ImageView android:id="@+id/shouye_images_04"
+            style="@style/shouye_all_images"
+            android:src="@drawable/shouye_all_image5_selector" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:layout_marginTop="5dp">
+
+        <TextView
+            style="@style/shouye_all_images_txt"
+            android:text="数码" />
+
+        <TextView
+            style="@style/shouye_all_images_txt"
+            android:text="女装" />
+
+        <TextView
+            style="@style/shouye_all_images_txt"
+            android:text="男装" />
+
+        <TextView
+            style="@style/shouye_all_images_txt"
+            android:text="家居" />
+
+        <TextView
+            style="@style/shouye_all_images_txt"
+            android:text="母婴" />
+    </LinearLayout>
+   <!-- /////////////////////////////////////////////// -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.0"
+        android:orientation="horizontal" 
+        android:layout_marginTop="10dp">
+
+        <ImageView android:id="@+id/shouye_images_05"
+            style="@style/shouye_all_images"
+            android:src="@drawable/shouye_all_image6_selector" />
+
+        <ImageView android:id="@+id/shouye_images_06"
+            style="@style/shouye_all_images"
+            android:src="@drawable/shouye_all_image7_selector" />
+
+        <ImageView android:id="@+id/shouye_images_07"
+            style="@style/shouye_all_images"
+            android:src="@drawable/shouye_all_image8_selector" />
+
+        <ImageView android:id="@+id/shouye_images_08"
+            style="@style/shouye_all_images"
+            android:src="@drawable/shouye_all_image10_selector" />
+            style="@style/shouye_all_images"
+             android:src="@drawable/shouye_all_image9_selector" />
+
+        <ImageView android:id="@+id/shouye_images_09"
+             style="@style/shouye_all_images"
+             android:src="@drawable/shouye_all_image9_selector" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:layout_marginTop="5dp">
+
+        <TextView
+            style="@style/shouye_all_images_txt"
+            android:text="鞋包" />
+
+        <TextView
+            style="@style/shouye_all_images_txt"
+            android:text="配饰" />
+
+        <TextView
+            style="@style/shouye_all_images_txt"
+            android:text="美妆" />
+
+        <TextView
+            style="@style/shouye_all_images_txt"
+            android:text="美食" />
+
+        <TextView
+            style="@style/shouye_all_images_txt"
+            android:text="其它" />
+    </LinearLayout>
+    
+
+</LinearLayout>
